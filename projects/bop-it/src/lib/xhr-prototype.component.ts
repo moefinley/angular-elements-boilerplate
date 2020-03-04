@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-bop-it',
+  selector: 'xhr-prototype',
   template: `
     <p>
-      bop-it works! Hello
+      Prototype works! Hello
     </p>
   `,
   styles: []
 })
-export class BopItComponent implements OnInit {
+export class XhrPrototypeComponent implements OnInit {
 
   constructor() { }
 
