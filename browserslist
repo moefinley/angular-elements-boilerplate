@@ -5,8 +5,12 @@
 # You can see what browsers were selected by your queries by running:
 #   npx browserslist
 
-> 0.5%
-last 2 versions
-Firefox ESR
-not dead
-not IE 9-11 # For IE 9-11 support, remove 'not'.
+last 2 version,
+not IE <= 8,
+not dead,
+not op_mini all,
+not KaiOS > 0,
+not Baidu > 0,
+not and_qq > 0,
+not and_uc > 0,
+node 10
